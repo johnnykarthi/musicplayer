@@ -1,0 +1,104 @@
+.kk{
+    
+    height: 100vh;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.596);
+}
+
+
+#pic{
+    width: 230px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+.music{
+    background-color: rgb(255, 255, 255);
+    padding: 20px 40px 20px;
+    border-radius: 18px;
+}
+
+
+.icon-c{
+    font-size: 20px;
+    
+}
+
+
+.slide{
+    width: 100%;
+    cursor: pointer;
+}
+
+.control{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(66, 70, 207);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+#play{
+    width: 70px;
+    height: 70px;
+}
+
+#shuffle,#repeat{
+    cursor: pointer;
+}
+
+
+.scode{
+    width: 230px;
+}
+
+.act{
+    color: rgb(66, 70, 207);
+}
+
+@media only screen and (max-width: 600px) {
+
+    .music{
+        padding: 20px;
+        margin: 0 30px;
+        border-radius: 0;
+    }
+    .logo{
+        padding: 30px;
+    }
+    #pic{
+        width: 200px;
+    }
+
+    .control{
+        margin: 20px 0;
+        width: 35px;
+        height: 35px;
+    }
+
+    #play{
+        width: 55px;
+        height: 55px;
+    }
+    #playc{
+        font-size: 23px;
+    }
+
+    .fr{
+        font-size: 12px;
+    }
+
+    #shuffle{
+        margin-right: auto;
+    }
+    #repeat{
+        margin-left: auto;
+    }
+
+}
